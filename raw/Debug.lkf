@@ -1,0 +1,4 @@
+-z -c -m"./Debug/raw.map" -o"./Debug/raw.out" -w -x -i"D:/CCStudio_v3.3/C6000/csl/lib" -i"D:/CCStudio_v3.3/C6000/xdais/lib" -i"D:/CCStudio_v3.3/bios_5_31_02/packages/ti/bios/lib" -i"D:/CCStudio_v3.3/bios_5_31_02/packages/ti/rtdx/lib/c6000" -i"D:/CCStudio_v3.3/C6000/cgtools/lib"
+"F:\dsp_shishi\raw\c6455.cmd"
+"F:\dsp_shishi\raw\Debug\1.obj"
+"D:\CCStudio_v3.3\C6000\cgtools\lib\rts6400.lib"

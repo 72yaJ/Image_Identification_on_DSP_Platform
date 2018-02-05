@@ -1,0 +1,113 @@
+; Code Composer Project File, Version 2.0 (do not modify or remove this line)
+
+[Project Settings]
+ProjectDir="F:\dsp_shishi\raw\"
+ProjectType=Executable
+CPUFamily=TMS320C64XX
+Tool="Compiler"
+Tool="CustomBuilder"
+Tool="DspBiosBuilder"
+Tool="Linker"
+Config="Debug"
+Config="Release"
+
+[Source Files]
+Source="1.c"
+Source="D:\CCStudio_v3.3\C6000\cgtools\lib\rts6400.lib"
+Source="Debug\buhege4.raw"
+Source="Debug\buhege8.raw"
+Source="Debug\buhege9.raw"
+Source="Debug\hege1.raw"
+Source="Debug\hege2.raw"
+Source="Debug\hege3.raw"
+Source="Debug\hege4.raw"
+Source="Debug\hege5.raw"
+Source="Debug\hege7.raw"
+Source="Debug\hege8.raw"
+Source="Debug\hege9.raw"
+Source="c6455.cmd"
+
+["Compiler" Settings: "Debug"]
+Options=-g -fr"$(Proj_dir)\Debug" -d"_DEBUG" -mv6400
+
+["Compiler" Settings: "Release"]
+Options=-o3 -fr"$(Proj_dir)\Release" -mv6400
+
+["Linker" Settings: "Debug"]
+Options=-c -m".\Debug\raw.map" -o".\Debug\raw.out" -w -x
+
+["Linker" Settings: "Release"]
+Options=-c -m".\Release\raw.map" -o".\Release\raw.out" -w -x
+
+["Debug\buhege4.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\buhege4.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\buhege8.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\buhege8.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\buhege9.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\buhege9.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\hege1.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\hege1.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\hege2.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\hege2.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\hege3.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\hege3.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\hege4.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\hege4.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\hege5.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\hege5.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\hege7.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\hege7.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\hege8.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\hege8.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["Debug\hege9.raw" Settings: "Debug"]
+ExcludeFromBuild=true
+
+["Debug\hege9.raw" Settings: "Release"]
+ExcludeFromBuild=true
+
+["c6455.cmd" Settings: "Debug"]
+LinkOrder=1
+
+["c6455.cmd" Settings: "Release"]
+LinkOrder=1
+
